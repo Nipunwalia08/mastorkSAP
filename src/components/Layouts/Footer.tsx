@@ -72,27 +72,27 @@ const Footer: React.FC = () => {
 
                 <ul className="list">
                   <li>
-                    <Link href="/">
+                    <Link href="https://www.mastork.com/">
                       Home
                     </Link>
                   </li>
                   <li>
-                    <Link href="/about/">
+                    <Link href="https://www.mastork.com/about/">
                       About
                     </Link>
                   </li>
                   <li>
-                    <Link href="/services/">
+                    <Link href="https://www.mastork.com/services/">
                       Services
                     </Link>
                   </li>
                   <li>
-                    <Link href="/industries/">
+                    <Link href="https://www.mastork.com/industries/">
                       Industries
                     </Link>
                   </li>
                   <li>
-                    <Link href="/case-study">
+                    <Link href="https://www.mastork.com/case-study/">
                       Case Study
                     </Link>
                   </li>
@@ -116,7 +116,7 @@ const Footer: React.FC = () => {
 
                 <ul className="list">
                   <li>
-                    <Link href="/contact-us/">
+                    <Link href="https://www.mastork.com/contact-us/">
                       Contact Us
                     </Link>
                   </li>
@@ -131,12 +131,12 @@ const Footer: React.FC = () => {
                     </Link>
                   </li> */}
                   <li>
-                    <Link href="/privacy-policy/">
+                    <Link href="https://www.mastork.com/privacy-policy/">
                       Privacy Policy
                     </Link>
                   </li>
                   <li>
-                    <Link href="/terms-conditions/">
+                    <Link href="https://www.mastork.com/terms-conditions/">
                       Terms & Conditions
                     </Link>
                   </li>

@@ -1,67 +1,67 @@
 export const menus = [
 	{
 		label: "About us",
-		link: "/about/",
+		link: "https://www.mastork.com/about/",
 	},
 	{
 		label: "Services",
-		link: "/services",
+		link: "https://www.mastork.com/services/",
 		submenu: [
 			{
 				label: "Automation",
-				link: "/Automation",
+				link: "https://www.mastork.com/Automation/",
 			},
 			{
 				label: "CyberSecurity & Network",
-				link: "/cyber-security",
+				link: "https://www.mastork.com/cyber-security",
 			},
 			{
 				label: "Data Driven Decision & Prediction",
-				link: "/data-driven-prediction",
+				link: "https://www.mastork.com/data-driven-prediction",
 			},
 			{
 				label: "Business Process Digitization & Automation",
-				link: "/process-automation",
+				link: "https://www.mastork.com/process-automation",
 			},
 			{
 				label: "Consulting And Advisory",
-				link: "/consulting",
+				link: "https://www.mastork.com/consulting",
 			},
 		],
 	},
 	{
 		label: "Industries",
-		link: "/industries",
+		link: "https://www.mastork.com/industries",
 		submenu: [
 			{
 				label: "Finance",
-				link: "/finance",
+				link: "https://www.mastork.com/finance",
 			},
 			{
 				label: "Recruitment",
-				link: "/recruitment",
+				link: "https://www.mastork.com/recruitment",
 			},
 			{
 				label: "Logistics",
-				link: "/logistics",
+				link: "https://www.mastork.com/logistics",
 			},
 			{
 				label: "Healthcare",
-				link: "/healthcare",
+				link: "https://www.mastork.com/healthcare",
 			},
 			{
 				label: "Manufacturing & Retail",
-				link: "/manufacturing",
+				link: "https://www.mastork.com/manufacturing",
 			},
 			{
 				label: "Gaming",
-				link: "/gaming",
+				link: "https://www.mastork.com/gaming",
 			},
 		],
 	},
   {
 		label: "Case Studies",
-		link: "/case-study/",
+		link: "https://www.mastork.com/case-study/",
 	// 	submenu: [
 	// 		{
 	// 			label: "Portfolio",

@@ -44,7 +44,7 @@ const LatestNews: React.FC = () => {
         <div className="container">
           <div className="section-title">
             <span className="sub-title">News</span>
-            <h2>Our Latest News</h2>
+            <h2>Use Cases</h2>
           </div>
 
           <div className="row justify-content-center">

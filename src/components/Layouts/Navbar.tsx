@@ -7,7 +7,7 @@ import MenuItem from "./MenuItem";
 import MegaMenu from "./MegaMenu";
 import { menus } from "../../../libs/menus";
 
-import logo from "../../../public/images/logo.png";
+import logo from "../../../public/images/image (11).png";
 
 const Navbar: React.FC = () => {
   const [menu, setMenu] = useState<boolean>(true);

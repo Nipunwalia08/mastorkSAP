@@ -7,28 +7,28 @@ import Image from "next/image";
 const caseStudiesData = [
   {
     image: "/images/case-studies/studie1.jpg",
-    title: "Community Engagements",
+    title: "How a Leading E-commerce Company Reduced Email Response Times by 70%",
     category: "Web, Sales",
-    detailsLink: "/portfolio/portfolio-details/",
+    detailsLink: "/portfolio/ai-email-reducing-time/",
     shapeImage: "/images/case-studies/studie-shape1.png",
     aosDelay: "100",
   },
   {
     image: "/images/case-studies/studie2.jpg",
-    title: "Built web faster & better",
+    title: "Automating Sales Order Management, Increasing Conversion Rates by 50%",
     category: "Sales, SEO, Web",
-    detailsLink: "/portfolio/portfolio-details/",
+    detailsLink: "/portfolio/automating-sales-order-using-ai-email/",
     shapeImage: "/images/case-studies/studie-shape2.png",
     aosDelay: "200",
   },
-  {
-    image: "/images/case-studies/studie3.jpg",
-    title: "Traffic Management",
-    category: "Marketing",
-    detailsLink: "/portfolio/portfolio-details/",
-    shapeImage: "/images/case-studies/studie-shape3.png",
-    aosDelay: "300",
-  },
+  // {
+  //   image: "/images/case-studies/studie3.jpg",
+  //   title: "Traffic Management",
+  //   category: "Marketing",
+  //   detailsLink: "/portfolio/portfolio-details/",
+  //   shapeImage: "/images/case-studies/studie-shape3.png",
+  //   aosDelay: "300",
+  // },
 ];
 
 const CaseStudies: React.FC = () => {
@@ -39,8 +39,7 @@ const CaseStudies: React.FC = () => {
           <div className="section-title">
             <h2>CASE STUDIES</h2>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            See how our AI email solutions have transformed businesses, reducing response times and boosting conversions.
             </p>
           </div>
 
@@ -56,9 +55,9 @@ const CaseStudies: React.FC = () => {
                     data-aos-delay={value.aosDelay}
                   >
                     <div className="content">
-                      <span>
+                      {/* <span>
                         <Link href={value.detailsLink}>{value.category}</Link>
-                      </span>
+                      </span> */}
 
                       <h3>
                         <Link href={value.detailsLink}>{value.title}</Link>
@@ -83,8 +82,8 @@ const CaseStudies: React.FC = () => {
           </div>
 
           <div className="view-more-work">
-            <Link href="/portfolio" className="btn btn-primary">
-              View More Work
+            <Link href="" className="btn btn-primary">
+              Book A Call
             </Link>
           </div>
         </div>

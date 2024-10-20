@@ -10,7 +10,7 @@ const MegaMenu: React.FC = () => {
   return (
     <>
       <li className="nav-item">
-        <Link href="/" className="nav-link">
+        <Link href="https://www.mastork.com/" className="nav-link">
           Home
           {/* <i className="fa-solid fa-angle-down"></i> */}
         </Link>

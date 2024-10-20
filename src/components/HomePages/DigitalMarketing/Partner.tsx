@@ -1,118 +1,106 @@
 "use client";
 
 import React from "react";
-import { Swiper, SwiperSlide } from "swiper/react";
-import { Autoplay, Navigation } from "swiper/modules";
 import Image from "next/image";
 
 const partnersData = [
   {
-    id: "1",
-    image: "/images/digital-marketing/partner1.png",
+    image: "/images/partners/Brand1.png",
     link: "#",
+    aosDelay: "100",
   },
   {
-    id: "2",
-    image: "/images/digital-marketing/partner2.png",
+    image: "/images/partners/brand15.jpeg",
     link: "#",
+    aosDelay: "200",
   },
   {
-    id: "3",
-    image: "/images/digital-marketing/partner3.png",
+    image: "/images/partners/brand3.png",
     link: "#",
+    aosDelay: "300",
   },
   {
-    id: "4",
-    image: "/images/digital-marketing/partner4.png",
+    image: "/images/partners/brand4.png",
     link: "#",
+    aosDelay: "400",
   },
   {
-    id: "5",
-    image: "/images/digital-marketing/partner5.png",
+    image: "/images/partners/brand5.png",
     link: "#",
+    aosDelay: "500",
   },
   {
-    id: "6",
-    image: "/images/digital-marketing/partner6.png",
+    image: "/images/partners/brand6.png",
     link: "#",
+    aosDelay: "600",
   },
   {
-    id: "7",
-    image: "/images/digital-marketing/partner4.png",
+    image: "/images/partners/brand7.png",
     link: "#",
+    aosDelay: "700",
   },
   {
-    id: "8",
-    image: "/images/digital-marketing/partner5.png",
+    image: "/images/partners/brand8.png",
     link: "#",
+    aosDelay: "800",
+  },
+  {
+    image: "/images/partners/brand9.png",
+    link: "#",
+    aosDelay: "900",
+  },
+  {
+    image: "/images/partners/brand10.png",
+    link: "#",
+    aosDelay: "1000",
+  },
+  {
+    image: "/images/partners/Polar .png",
+    link: "#",
+    aosDelay: "1100",
+  },
+  {
+    image: "/images/partners/brand13.png",
+    link: "#",
+    aosDelay: "1200",
   },
 ];
 
 const Partner: React.FC = () => {
   return (
     <>
-      <div className="partner-area pb-100">
+      <div className="partner-area pt-100 pb-60">
         <div className="container">
           <div className="section-title">
-            <span className="sub-title">Clients</span>
-            <h2>Our Clients</h2>
-            <p>
+            <h2>Trusted By</h2>
+            {/* <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua.
-            </p>
+            </p> */}
           </div>
 
-          {partnersData && (
-            <Swiper
-              autoHeight={true}
-              navigation={true}
-              spaceBetween={30}
-              autoplay={{
-                delay: 5000,
-                disableOnInteraction: true,
-                pauseOnMouseEnter: true,
-              }}
-              breakpoints={{
-                0: {
-                  slidesPerView: 2,
-                },
-                576: {
-                  slidesPerView: 3,
-                },
-                768: {
-                  slidesPerView: 4,
-                },
-                992: {
-                  slidesPerView: 5,
-                },
-                1200: {
-                  slidesPerView: 6,
-                },
-              }}
-              modules={[Autoplay, Navigation]}
-              className="partner-slides"
-            >
-              {partnersData &&
-                partnersData.map((value, i) => (
-                  <SwiperSlide key={i}>
-                    <div className="partner-item text-center">
-                      <a
-                        href={value.link}
-                        className="d-inline-block"
-                        target="_blank"
-                      >
-                        <Image
-                          src={value.image}
-                          alt="image"
-                          width={155}
-                          height={55}
-                        />
-                      </a>
-                    </div>
-                  </SwiperSlide>
-                ))}
-            </Swiper>
-          )}
+          <div className="row align-items-center justify-content-center">
+            {partnersData &&
+              partnersData.map((value, i) => (
+                <div className="col-lg-2 col-6 col-sm-4" key={i}>
+                  <div
+                    className="single-partner"
+                    data-aos="fade-in"
+                    data-aos-duration="1000"
+                    data-aos-delay={value.aosDelay}
+                  >
+                    <a href={value.link} target="_blank">
+                      <Image
+                        src={value.image}
+                        alt="Partner Image"
+                        width={100}
+                        height={100}
+                      />
+                    </a>
+                  </div>
+                </div>
+              ))}
+          </div>
         </div>
       </div>
     </>

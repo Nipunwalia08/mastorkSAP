@@ -11,7 +11,7 @@ const feedbacskData = [
     name: "Sarah Taylor",
     designation: "Director",
     feedbackText:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.",
+      "Mastorks AI email management system has completely transformed how we handle customer inquiries. We have reduced response times and improved customer satisfaction, saving us hours every week!",
 
     rating: [
       {
@@ -36,7 +36,7 @@ const feedbacskData = [
     name: "Richard Turner",
     designation: "CEO & Founder",
     feedbackText:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.",
+      "Thanks to Mastorks AI-powered solutions, our sales order process is now streamlined and efficient. We have seen a significant increase in conversions, and our team can focus on high-priority tasks.",
 
     rating: [
       {

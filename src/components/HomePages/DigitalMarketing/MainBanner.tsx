@@ -21,7 +21,7 @@ const MainBanner: React.FC = () => {
                   data-aos-duration="1000"
                   data-aos-delay="100"
                 >
-                  MARKETING AGENCY
+                  Email Management Using AI
                 </span>
 
                 <h1
@@ -29,7 +29,7 @@ const MainBanner: React.FC = () => {
                   data-aos-duration="1000"
                   data-aos-delay="200"
                 >
-                  We Help You Take Your Business to The Next Level
+                  Revolutionize your email with AI-driven solutions
                 </h1>
 
                 <p
@@ -37,8 +37,8 @@ const MainBanner: React.FC = () => {
                   data-aos-duration="1000"
                   data-aos-delay="300"
                 >
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  Revolutionize your email handling process with AI-driven solutions that enhance productivity, streamline responses, and increase customer satisfaction.  
+
                 </p>
 
                 <Link

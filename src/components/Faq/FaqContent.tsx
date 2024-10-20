@@ -30,15 +30,12 @@ const FaqContent: React.FC = () => {
                   <AccordionItem uuid="a">
                     <AccordionItemHeading>
                       <AccordionItemButton>
-                        What access do I have on the free plan?
+                        How long does it take to implement your AI email solution?
                       </AccordionItemButton>
                     </AccordionItemHeading>
                     <AccordionItemPanel>
                       <p>
-                        Lorem Ipsum is simply dummy text of the printing and
-                        typesetting industry. Lorem Ipsum has been the
-                        industry&apos;s standard dummy text ever since the 1500s,
-                        when an unknown printer took a galley of type.
+                        Implementation typically takes 2 to 4 weeks, depending on your specific needs and existing systems.
                       </p>
                     </AccordionItemPanel>
                   </AccordionItem>
@@ -46,15 +43,12 @@ const FaqContent: React.FC = () => {
                   <AccordionItem uuid="b">
                     <AccordionItemHeading>
                       <AccordionItemButton>
-                        What access do I have on a free trial?
+                        What results can we expect from your email management solutions?
                       </AccordionItemButton>
                     </AccordionItemHeading>
                     <AccordionItemPanel>
                       <p>
-                        Lorem Ipsum is simply dummy text of the printing and
-                        typesetting industry. Lorem Ipsum has been the
-                        industry&apos;s standard dummy text ever since the 1500s,
-                        when an unknown printer took a galley of type.
+                        Clients have reported up to a 70% reduction in response times and a 50% increase in conversion rates, enhancing overall customer satisfaction.
                       </p>
                     </AccordionItemPanel>
                   </AccordionItem>
@@ -62,15 +56,12 @@ const FaqContent: React.FC = () => {
                   <AccordionItem uuid="c">
                     <AccordionItemHeading>
                       <AccordionItemButton>
-                        Does the price go up as my team gets larger?
+                        Is the solution customizable for specific industries?
                       </AccordionItemButton>
                     </AccordionItemHeading>
                     <AccordionItemPanel>
                       <p>
-                        Lorem Ipsum is simply dummy text of the printing and
-                        typesetting industry. Lorem Ipsum has been the
-                        industry&apos;s standard dummy text ever since the 1500s,
-                        when an unknown printer took a galley of type.
+                        Yes, our AI email management solutions can be tailored to meet the unique requirements of various industries, ensuring optimal performance.
                       </p>
                     </AccordionItemPanel>
                   </AccordionItem>
@@ -78,15 +69,12 @@ const FaqContent: React.FC = () => {
                   <AccordionItem uuid="d">
                     <AccordionItemHeading>
                       <AccordionItemButton>
-                        How can I cancel/pause my subscription?
+                        What kind of support do you offer after implementation?
                       </AccordionItemButton>
                     </AccordionItemHeading>
                     <AccordionItemPanel>
                       <p>
-                        Lorem Ipsum is simply dummy text of the printing and
-                        typesetting industry. Lorem Ipsum has been the
-                        industry&apos;s standard dummy text ever since the 1500s,
-                        when an unknown printer took a galley of type.
+                        We provide ongoing support, including regular updates, troubleshooting, and access to our dedicated customer service team.
                       </p>
                     </AccordionItemPanel>
                   </AccordionItem>
@@ -94,15 +82,12 @@ const FaqContent: React.FC = () => {
                   <AccordionItem uuid="e">
                     <AccordionItemHeading>
                       <AccordionItemButton>
-                        Can I pay via an invoice?
+                        Can your system integrate with our existing email platform?
                       </AccordionItemButton>
                     </AccordionItemHeading>
                     <AccordionItemPanel>
                       <p>
-                        Lorem Ipsum is simply dummy text of the printing and
-                        typesetting industry. Lorem Ipsum has been the
-                        industry&apos;s standard dummy text ever since the 1500s,
-                        when an unknown printer took a galley of type.
+                        Absolutely! Our AI solutions are designed to integrate seamlessly with popular email platforms to enhance your current workflows.
                       </p>
                     </AccordionItemPanel>
                   </AccordionItem>
