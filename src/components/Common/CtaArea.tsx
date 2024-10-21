@@ -28,8 +28,8 @@ const CtaArea: React.FC = () => {
               data-aos-delay="300"
             >
               <div className="cta-btn-box">
-                <Link href="/contact-us/" className="btn btn-primary">
-                  Contact Us
+                <Link href="Book a 1:1 Call" className="btn btn-primary">
+                Book a 1:1 Call
                 </Link>
               </div>
             </div>

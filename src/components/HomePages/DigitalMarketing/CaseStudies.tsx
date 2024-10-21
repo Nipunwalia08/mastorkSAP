@@ -82,8 +82,8 @@ const CaseStudies: React.FC = () => {
           </div>
 
           <div className="view-more-work">
-            <Link href="" className="btn btn-primary">
-              Book A Call
+            <Link href="https://calendly.com/dhruv-aii/30mins" className="btn btn-primary">
+            Book a 1:1 Call
             </Link>
           </div>
         </div>

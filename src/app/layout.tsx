@@ -35,7 +35,9 @@ import { Inter, Saira } from "next/font/google";
 import AosAnimation from "@/components/Layouts/AosAnimation";
 import GoTop from "@/components/Layouts/GoTop";
 
-// For all body text font
+import GoogleAnalytics from '../components/GoogleAnalytics';
+
+// For all body text font/
 const inter = Inter({
   weight: ['100', '200', '300', '400', '500', '600', '700', '800', '900'],
   subsets: ["latin"],
@@ -66,6 +68,7 @@ export default function RootLayout({
         {children}
 
         <AosAnimation />
+        <GoogleAnalytics />
 
         <GoTop />
       </body>

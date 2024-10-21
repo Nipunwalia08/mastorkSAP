@@ -69,7 +69,7 @@ const Navbar: React.FC = () => {
               </ul>
 
               <div className="others-options">
-                <Link href="/contact-us/" className="btn btn-primary">
+                <Link href="https://calendly.com/dhruv-aii/30mins" className="btn btn-primary">
                   Get Started
                 </Link>
               </div>

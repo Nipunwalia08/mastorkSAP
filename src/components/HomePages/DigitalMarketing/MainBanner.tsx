@@ -42,13 +42,13 @@ const MainBanner: React.FC = () => {
                 </p>
 
                 <Link
-                  href="/contact-us/"
+                  href="https://calendly.com/dhruv-aii/30mins"
                   className="default-btn-two"
                   data-aos="fade-in"
                   data-aos-duration="1000"
                   data-aos-delay="400"
                 >
-                  Contact Us <i className="fas fa-chevron-right"></i>
+                  Book a 1:1 Call <i className="fas fa-chevron-right"></i>
                 </Link>
               </div>
             </div>
