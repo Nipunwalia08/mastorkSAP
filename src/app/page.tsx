@@ -100,6 +100,7 @@ import AboutContent from "../components/HomePages/DigitalMarketing/AboutContent"
 import OurServices from "../components/HomePages/DigitalMarketing/OurServices";
 import FunFacts from "../components/HomePages/DigitalMarketing/FunFacts";
 import Testimonials from "../components/HomePages/DigitalMarketing/Testimonials";
+import ServiceStyle2 from "../components/HomePages/MarketingAgency/ServiceStyleTwo";
 import PricingPlans from "../components/HomePages/DigitalMarketing/PricingPlans";
 import TeamMember from "../components/HomePages/DigitalMarketing/TeamMember";
 import LatestNews from "../components/HomePages/DigitalMarketing/LatestNews";
@@ -117,7 +118,9 @@ export default function Page() {
 
       <MarketingProcess />
 
-      <WorkProcess2 />
+      {/* <WorkProcess2 /> */}
+
+      <ServiceStyle2 />
 
       <LatestNews />
 

@@ -134,7 +134,7 @@
 //         ))}
 //     </>
 //   );
-// };
+// };"use client";
 "use client";
 
 import React from "react";
@@ -152,7 +152,7 @@ const workProcessData = [
       {
         iconName: "pe-7s-display1",
         title: "",
-        text: "AI-Powered Email CustomerSupport",
+        text: "AI-Powered Email Customer Support",
         aosDelay: "100",
       },
       {
@@ -202,15 +202,12 @@ const WorkProcess2: React.FC = () => {
               </div>
 
               <div className="work-process">
-                {/* Blurred image with 20% opacity */}
+                {/* Background image for desktop, hidden in mobile/tablet */}
                 <div
+                  className="bg-image-container"
                   data-aos="zoom-in"
                   data-aos-duration="1000"
                   data-aos-delay="600"
-                  style={{
-                    filter: "blur(5px)",
-                    opacity: "0.95", // Adjusting to 20% blur effect
-                  }}
                 >
                   <Image src={value.image} alt="image" width={492} height={941} />
                 </div>
@@ -223,7 +220,7 @@ const WorkProcess2: React.FC = () => {
                     gap: "20px",
                   }}
                 >
-                  {value.list.slice(0, 6).map((item, i) => (
+                  {value.list.map((item, i) => (
                     <div
                       className="single-work-process"
                       key={i}
@@ -245,12 +242,11 @@ const WorkProcess2: React.FC = () => {
                       <div className="icon">
                         <i className={item.iconName}></i>
                       </div>
-                      {/* Bold text for title and description */}
                       <h3
                         style={{
                           fontSize: "18px",
                           marginBottom: "10px",
-                          fontWeight: "bold", // Making title bold
+                          fontWeight: "bold",
                         }}
                       >
                         {item.title}
@@ -262,7 +258,7 @@ const WorkProcess2: React.FC = () => {
                           lineHeight: "1.5",
                           display: "block",
                           wordWrap: "break-word",
-                          fontWeight: "bold", // Making description bold
+                          fontWeight: "bold",
                         }}
                       >
                         {item.text}
@@ -282,11 +278,35 @@ const WorkProcess2: React.FC = () => {
             </div>
           </section>
         ))}
+
+      {/* Media Queries */}
+      <style jsx>{`
+        @media (max-width: 768px) {
+          .bg-image-container {
+            display: none; /* Hide the background image */
+          }
+          .work-process-list {
+            gap: 10px;
+            justify-content: space-between;
+          }
+          .single-work-process {
+            flex: 0 0 calc(50% - 10px); /* Display two tiles per row */
+            max-width: calc(50% - 10px);
+            min-width: unset;
+            padding: 15px; /* Adjust padding for smaller screens */
+          }
+        }
+
+        @media (max-width: 480px) {
+          .single-work-process {
+            flex: 0 0 100%; /* Make it full-width on very small screens */
+            max-width: 100%;
+          }
+        }
+      `}</style>
     </>
   );
 };
 
 export default WorkProcess2;
-
-
 //export default WorkProcess2;

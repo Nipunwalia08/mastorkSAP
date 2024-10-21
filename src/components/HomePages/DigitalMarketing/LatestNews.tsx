@@ -1,45 +1,55 @@
 "use client";
 
-import React from "react";
+import React, { useState } from "react";
 import Link from "next/link";
 import Image from "next/image";
+import FsLightbox from "fslightbox-react";
 
 const latestNewsData = [
   {
     image: "/images/blog/blog7.jpg",
-    title: "The Most Popular New top Business Apps",
+    title: "Customized Bulk Emails",
     date: "Feb 15, 2023",
     category: "Technology",
     shortText:
-      "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium.",
-    detailsLink: "/blog/blog-details/",
+      "Send customized bulk emails with corresponding attachments directly from Excel.we demonstrate how to automate email campaigns and notifications directly from Excel, saving you time and improving productivity. Whether you are managing customer lists, sending reminders, or sharing updates, Mastorks email automation solution makes the process seamless and efficient",
+    detailsLink: "https://youtu.be/p_MFkvGNxC0?feature=shared",
     aosDelay: "100",
   },
   {
     image: "/images/blog/blog8.jpg",
-    title: "The Best Marketing top use Management Tools",
+    title: "Customer Feedback for leading Hotel Chains",
     date: "Feb 16, 2023",
-    category: "Agency",
+    category: "Support",
     shortText:
-      "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium.",
-    detailsLink: "/blog/blog-details/",
+      "businesses can harness intelligent automation to efficiently manage and resolve customer complaints. From email and web form submissions to social media interactions, our AI-powered automation tools simplify the entire process—categorizing, prioritizing, and resolving complaints with minimal manual intervention.",
+    detailsLink: "https://youtu.be/9CaGAGBqePQ?si=YfJtRXa3ZnWB_WKU",
     aosDelay: "200",
   },
   {
     image: "/images/blog/blog9.jpg",
-    title: "3 WooCommerce Plugins to Boost Sales",
+    title: "Email Overload Reduced",
     date: "Feb 17, 2023",
-    category: "IT Agency",
+    category: "Optimize",
     shortText:
-      "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium.",
-    detailsLink: "/blog/blog-details/",
+      "No contemporary business is immune to abundance of daily emails.With our ground breaking solution, that is fully customizable as per your business needs, you can infuse intelligent automation in your daily email management by imparting human like intelligence while categorizing and responding. ",
+    detailsLink: "https://youtu.be/_Es--fDeKso?si=ibOvFBezgP-SVly2",
     aosDelay: "300",
   },
 ];
 
 const LatestNews: React.FC = () => {
+  const [toggler, setToggler] = useState(false);
+  const [activeLink, setActiveLink] = useState("");
+
+  const openLightbox = (link: string) => {
+    setActiveLink(link);
+    setToggler(!toggler);
+  };
+
   return (
     <>
+      <FsLightbox toggler={toggler} sources={[activeLink]} />
       <div className="pb-70">
         <div className="container">
           <div className="section-title">
@@ -73,17 +83,18 @@ const LatestNews: React.FC = () => {
                     </div>
 
                     <div className="blog-post-content">
-                      <span className="date">{value.date}</span>
                       <h3>
                         <Link href={value.detailsLink}>{value.title}</Link>
                       </h3>
 
                       <p>{value.shortText}</p>
 
-                      <Link href={value.detailsLink} className="read-more-btn">
-                        Read More
-                        <i className="fa-solid fa-angles-right"></i>
-                      </Link>
+                      <button
+                        onClick={() => openLightbox(value.detailsLink)}
+                        className="btn btn-secondary"
+                      >
+                        <i className="fa-solid fa-play me-1"></i> How it works
+                      </button>
                     </div>
                   </div>
                 </div>
