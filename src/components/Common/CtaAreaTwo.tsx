@@ -21,7 +21,7 @@ const CtaAreaTwo: React.FC = () => {
               data-aos-duration="1000"
               data-aos-delay="200"
             >
-              Are You Ready? Let&apos;s get to work!
+              Ready to Revolutionize your emails using AI? Let&apos;s get to work!
             </h3>
           </div>
 
@@ -31,8 +31,8 @@ const CtaAreaTwo: React.FC = () => {
             data-aos-duration="1000"
             data-aos-delay="300"
           >
-            <Link href="/contact-us/" className="custom-btn">
-              Contact Us
+            <Link href="https://calendly.com/dhruv-aii/30mins" className="custom-btn">
+              Book A 1:1 Call
             </Link>
           </div>
         </div>

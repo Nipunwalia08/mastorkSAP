@@ -16,7 +16,7 @@ const CtaArea: React.FC = () => {
                 data-aos-duration="1000"
                 data-aos-delay="200"
               >
-                <h3>Have a project in mind?</h3>
+                <h3>Ready to Revolutionize your emails using AI</h3>
                 <p>Let&apos;s get to work</p>
               </div>
             </div>
@@ -28,7 +28,7 @@ const CtaArea: React.FC = () => {
               data-aos-delay="300"
             >
               <div className="cta-btn-box">
-                <Link href="Book a 1:1 Call" className="btn btn-primary">
+                <Link href="https://calendly.com/dhruv-aii/30mins" className="btn btn-primary">
                 Book a 1:1 Call
                 </Link>
               </div>

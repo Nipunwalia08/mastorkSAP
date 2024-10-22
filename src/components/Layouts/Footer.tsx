@@ -116,7 +116,7 @@ const Footer: React.FC = () => {
 
                 <ul className="list">
                   <li>
-                    <Link href="https://www.mastork.com/contact-us/">
+                    <Link href="https://calendly.com/dhruv-aii/30mins">
                       Contact Us
                     </Link>
                   </li>
