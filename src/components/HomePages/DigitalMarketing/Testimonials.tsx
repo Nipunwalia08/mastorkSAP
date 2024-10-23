@@ -7,7 +7,7 @@ import Image from "next/image";
 
 const feedbacskData = [
   {
-    image: "/images/digital-marketing/testimonials-img1.jpg",
+    image: "/images/digital-marketing/t1.jpg",
     name: "Sarah Taylor",
     designation: "Director",
     feedbackText:
@@ -32,7 +32,7 @@ const feedbacskData = [
     ],
   },
   {
-    image: "/images/digital-marketing/testimonials-img2.jpg",
+    image: "/images/digital-marketing/t2.jpg",
     name: "Richard Turner",
     designation: "CEO & Founder",
     feedbackText:
