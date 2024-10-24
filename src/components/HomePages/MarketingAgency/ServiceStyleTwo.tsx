@@ -64,9 +64,9 @@ const ServiceStyle2: React.FC = () => {
                 </div>
 
                 <div className="service-read-more">
-                  {/* <Link href="/services/service-details/" className="btn btn-primary">
-                    <i className="fa-solid fa-list-check"></i> Read more
-                  </Link> */}
+                  <Link href="https://calendly.com/dhruv-aii/30mins" className="btn btn-primary">
+                     Book a 1:1 Call
+                  </Link>
                 </div>
               </div>
             </div>

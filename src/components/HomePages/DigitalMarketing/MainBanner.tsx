@@ -41,13 +41,18 @@ const MainBanner: React.FC = () => {
 
                 </p>
 
-                <Link
+                {/* <Link
                   href="https://calendly.com/dhruv-aii/30mins"
                   className="default-btn-two"
                   data-aos="fade-in"
                   data-aos-duration="1000"
                   data-aos-delay="400"
                 >
+                  Book a 1:1 Call <i className="fas fa-chevron-right"></i>
+                </Link> */}
+              <Link
+                  href="https://calendly.com/dhruv-aii/30mins"
+                  className="default-btn-two">
                   Book a 1:1 Call <i className="fas fa-chevron-right"></i>
                 </Link>
               </div>

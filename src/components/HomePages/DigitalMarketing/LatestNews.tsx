@@ -53,7 +53,7 @@ const LatestNews: React.FC = () => {
       <div className="pb-70">
         <div className="container">
           <div className="section-title">
-            <span className="sub-title">News</span>
+            <span className="sub-title"></span>
             <h2>Use Cases</h2>
           </div>
 
@@ -100,6 +100,24 @@ const LatestNews: React.FC = () => {
                 </div>
               ))}
           </div>
+          <div className="row justify-content-center"><Link
+    href="https://calendly.com/dhruv-aii/30mins"
+    style={{
+      display: "inline-block",
+      height: "45px",  // Set a fixed height
+      width: "200px",  // Set a fixed width
+      lineHeight: "45px",  // Vertically center the text
+      fontSize: "16px",
+      backgroundColor: "#ff0055",
+      color: "#fff",
+      borderRadius: "5px",
+      textDecoration: "none",
+      textAlign: "center",  // Ensure text is centered
+      transition: "background-color 0.3s ease",
+    }}
+  >
+    Book a 1:1 Call <i className="fas fa-chevron-right" style={{ marginLeft: "5px" }}></i>
+  </Link></div>
         </div>
       </div>
     </>
