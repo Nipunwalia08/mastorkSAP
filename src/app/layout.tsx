@@ -36,6 +36,7 @@ import AosAnimation from "@/components/Layouts/AosAnimation";
 import GoTop from "@/components/Layouts/GoTop";
 
 import GoogleAnalytics from '../components/GoogleAnalytics';
+import GoogleAds from '../components/GoogleAds'
 
 // For all body text font/
 const inter = Inter({
@@ -69,6 +70,7 @@ export default function RootLayout({
 
         <AosAnimation />
         <GoogleAnalytics />
+        <GoogleAds />
 
         <GoTop />
       </body>
