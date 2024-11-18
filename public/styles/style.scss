@@ -45,8 +45,9 @@ This files table contents are outlined below >>>>>
 
 // Global Variable
 
-$main-color: #ff2c9c;
-$gradient-color: linear-gradient(to left top, #ff2c9c, #ff287b, #ff395a, #ff5137, #ff6a00);
+$main-color: #0700db;
+$gradient-color: linear-gradient(to left top, #0700db, #135aff, #7048ff, #00297a, #18006f);
+
 $font-size: 15px;
 $black-color: #18181b;
 $paragraph-color: #646464;
@@ -1296,7 +1297,7 @@ Main Banner CSS
 
             &.swiper-pagination-bullet-active {
                 background: $gradient-color;
-                border: 1px solid #ff2c9c;
+                border: 1px solid #0700db;
             }
         }
     }
@@ -2353,7 +2354,7 @@ Case Studies CSS
 
             &.swiper-pagination-bullet-active {
                 background: $gradient-color;
-                border: 1px solid #ff2c9c;
+                border: 1px solid #0700db;
             }
         }
     }
@@ -3070,7 +3071,7 @@ Feedback CSS
 
             &.swiper-pagination-bullet-active {
                 background: $gradient-color;
-                border: 1px solid #ff2c9c;
+                border: 1px solid #0700db;
             }
         }
     }
@@ -4830,7 +4831,7 @@ Blog CSS
 
             &.swiper-pagination-bullet-active {
                 background: $gradient-color;
-                border: 1px solid #ff2c9c;
+                border: 1px solid #0700db;
             }
         }
     }
@@ -5607,6 +5608,7 @@ Contact CSS
     }
 
     .contact-title {
+        margin-bottom: 30px;
         margin-bottom: 30px;
         max-width: 600px;
         margin-left: auto;
@@ -6920,7 +6922,7 @@ span.new {
 
             &.swiper-pagination-bullet-active {
                 background: $gradient-color;
-                border: 1px solid #ff2c9c;
+                border: 1px solid #0700db;
             }
         }
     }

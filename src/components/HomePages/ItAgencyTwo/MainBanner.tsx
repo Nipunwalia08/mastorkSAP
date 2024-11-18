@@ -33,6 +33,7 @@ const MainBanner: React.FC = () => {
                         data-aos="fade-up" 
                         data-aos-duration="1000" 
                         data-aos-delay="100"
+                        className=""
                       >
                         Intelligent Automation Solution
                       </h1>

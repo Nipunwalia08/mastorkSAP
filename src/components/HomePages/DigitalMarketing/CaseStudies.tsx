@@ -7,7 +7,7 @@ import Image from "next/image";
 const caseStudiesData = [
   {
     image: "/images/case-studies/studie1.jpg",
-    title: "How a Leading E-commerce Company Reduced Email Response Times by 70%",
+    title: "How a global retailer achieved a 40% productivity boost using Microsoft Power Automate.",
     category: "Web, Sales",
     detailsLink: "/portfolio/ai-email-reducing-time/",
     shapeImage: "/images/case-studies/studie-shape1.png",
@@ -15,7 +15,7 @@ const caseStudiesData = [
   },
   {
     image: "/images/case-studies/studie2.jpg",
-    title: "Automating Sales Order Management, Increasing Conversion Rates by 50%",
+    title: "Simplifying project management for a construction firm with custom Power BI dashboards.",
     category: "Sales, SEO, Web",
     detailsLink: "/portfolio/automating-sales-order-using-ai-email/",
     shapeImage: "/images/case-studies/studie-shape2.png",
@@ -39,7 +39,7 @@ const CaseStudies: React.FC = () => {
           <div className="section-title">
             <h2>CASE STUDIES</h2>
             <p>
-            See how our AI email solutions have transformed businesses, reducing response times and boosting conversions.
+            See how our AI solutions have transformed businesses, reducing response times and boosting conversions.
             </p>
           </div>
 

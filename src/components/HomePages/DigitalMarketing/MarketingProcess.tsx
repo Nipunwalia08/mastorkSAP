@@ -9,35 +9,35 @@ const marketingProcessData = [
     image: "/images/digital-marketing/process1.png",
     title: "Time Drain",
     shortText:
-      "Do you or your team spend long hours handling customer emails, impacting productivity?",
+      "Is your team bogged down by manual, repetitive tasks that drain productivity?",
     aosDelay: "100",
   },
   {
     image: "/images/digital-marketing/process2.png",
     title: "Lost Emails",
     shortText:
-      "Struggling to find important emails in a sea of messages?",
+      "Struggling to unify your business processes across different systems and tools?",
     aosDelay: "200",
   },
   {
     image: "/images/digital-marketing/process3.png",
     title: "Email Overload",
     shortText:
-      "Feeling overwhelmed by the volume of customer emails and losing crucial information amid the clutter?",
+      "Do you face delays in decision-making due to scattered or inaccessible data?",
     aosDelay: "300",
   },
   {
     image: "/images/digital-marketing/process1.png",
     title: "Spam Fatigue",
     shortText:
-      "Fed up with endless promotional emails?",
+      "Difficulty in scaling your operations with outdated systems?",
     aosDelay: "100",
   },
   {
     image: "/images/digital-marketing/process2.png",
     title: "Routing Issues",
     shortText:
-      "Is your email system failing to route messages to the right POC, missing follow-ups and reminders?",
+      "Are you looking for seamless ERP and CRM integration to streamline your operations?",
     aosDelay: "200",
   },
 ];
@@ -82,7 +82,7 @@ const MarketingProcess: React.FC = () => {
       width: "200px",  // Set a fixed width
       lineHeight: "45px",  // Vertically center the text
       fontSize: "16px",
-      backgroundColor: "#ff0055",
+      backgroundColor: "#0700db",
       color: "#fff",
       borderRadius: "5px",
       textDecoration: "none",

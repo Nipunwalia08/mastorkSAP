@@ -35,35 +35,35 @@ const ServiceStyle2: React.FC = () => {
                   <div className="col-sm-6">
                     <div className="feature-list">
                       <i className="fa-solid fa-circle-check"></i>
-                      AI-Powered Email Customer Support
+                      Customized Development on Microsoft Power Platform
                     </div>
                     <div className="feature-list">
                       <i className="fa-solid fa-circle-check"></i>
-                      Refund/Return Management Using AI
+                      ERP & CRM Implementation and Optimization
                     </div>
                     <div className="feature-list">
                       <i className="fa-solid fa-circle-check"></i>
-                      Automated Email Reminders and Follow-ups
+                      AI-Driven Business Process Automation
                     </div>
                   </div>
 
                   <div className="col-sm-6">
                     <div className="feature-list">
                       <i className="fa-solid fa-circle-check"></i>
-                      Correct and Automatic Email Routing to the Right POC
+                      Accelerated Digital Transformation
                     </div>
                     <div className="feature-list">
                       <i className="fa-solid fa-circle-check"></i>
-                      Sales Order Management through Email
+                      Cloud Integration & Security
                     </div>
                     <div className="feature-list">
                       <i className="fa-solid fa-circle-check"></i>
-                      Email Interaction Analytics
+                      Customizable Business Solutions with Power Apps
                     </div>
                   </div>
                 </div>
 
-                <div className="service-read-more">
+                <div className="flex flex-col items-center justify-center text-center">
                   <Link href="https://calendly.com/dhruv-aii/30mins" className="btn btn-primary">
                      Book a 1:1 Call
                   </Link>

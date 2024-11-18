@@ -4,6 +4,7 @@ import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay, Navigation } from "swiper/modules";
 import Image from "next/image";
+import Link from "next/link";
 
 const feedbacskData = [
   {
@@ -11,7 +12,7 @@ const feedbacskData = [
     name: "Sarah Taylor",
     designation: "Director",
     feedbackText:
-      "Mastorks AI email management system has completely transformed how we handle customer inquiries. We have reduced response times and improved customer satisfaction, saving us hours every week!",
+      "Their Microsoft expertise transformed how we handle workflows, cutting costs by 30%!",
 
     rating: [
       {
@@ -36,7 +37,7 @@ const feedbacskData = [
     name: "Richard Turner",
     designation: "CEO & Founder",
     feedbackText:
-      "Thanks to Mastorks AI-powered solutions, our sales order process is now streamlined and efficient. We have seen a significant increase in conversions, and our team can focus on high-priority tasks.",
+      "From ERP integration to automation, they made digital transformation a reality for us.",
 
     rating: [
       {
@@ -117,6 +118,12 @@ const Testimonials: React.FC = () => {
                 </SwiperSlide>
               ))}
           </Swiper>
+
+          <div className="container flex flex-col items-center justify-center text-center" >
+            <Link href="https://calendly.com/dhruv-aii/30mins" className="btn btn-primary mt-5">
+            Book a 1:1 Call
+            </Link>
+          </div>
         </div>
       </div>
     </>

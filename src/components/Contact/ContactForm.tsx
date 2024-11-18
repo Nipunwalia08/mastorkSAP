@@ -154,9 +154,9 @@ const ContactForm: React.FC = () => {
   }
 
   return (
-    <div className="container">
-      <div className="contact-title">
-        <h2>Request a Demo</h2>
+    <div className="container mt-6 md:mt-20">
+      <div className="contact-title  font-bold">
+        <h2 className="gap-4 py-10 ">Request a Demo</h2>
       </div>
       <form onSubmit={handleFormSubmit}>
         <Box
@@ -208,10 +208,10 @@ const ContactForm: React.FC = () => {
             onChange={handleChange}
           />
 
-          <div>
+          <div className="flex flex-col items-center justify-center text-center">
             <Button
               type="submit"
-              className="default-btn-two"
+              className="btn btn-primary"
               variant="contained"
             >
               Submit

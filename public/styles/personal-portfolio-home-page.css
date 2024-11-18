@@ -51,7 +51,7 @@
   content: "";
   position: absolute;
   transform: translateY(-50%);
-  background-color: #ff2c9c;
+  background-color: #0700db;
 }
 .personal-portfolio-banner-content h1 {
   margin-bottom: 15px;
@@ -219,7 +219,9 @@
 .short-brief-content .timeline-item:last-child .timeline-content {
   padding-bottom: 0;
 }
-.short-brief-content .timeline-item:not(.period):hover .timeline-marker::before {
+.short-brief-content
+  .timeline-item:not(.period):hover
+  .timeline-marker::before {
   background: transparent;
   border: 3px solid var(--blackColor);
 }
@@ -379,10 +381,12 @@
   color: #18181b;
   font-size: 18px;
 }
-.pp-testimonials-slides .swiper-button-prev:hover, .pp-testimonials-slides .swiper-button-next:hover {
-  background-color: #ff2c9c;
+.pp-testimonials-slides .swiper-button-prev:hover,
+.pp-testimonials-slides .swiper-button-next:hover {
+  background-color: #0700db;
 }
-.pp-testimonials-slides .swiper-button-prev:hover::after, .pp-testimonials-slides .swiper-button-next:hover::after {
+.pp-testimonials-slides .swiper-button-prev:hover::after,
+.pp-testimonials-slides .swiper-button-next:hover::after {
   color: #fff;
 }
 
@@ -500,7 +504,7 @@
   font-weight: 600;
 }
 .pp-contact-area .contact-title p a:hover {
-  color: #ff2c9c;
+  color: #0700db;
 }
 
 /* Responsive CSS 
@@ -575,4 +579,4 @@
   .personal-portfolio-banner-content h4 {
     font-size: 25px;
   }
-}/*# sourceMappingURL=personal-portfolio-home-page.css.map */
+} /*# sourceMappingURL=personal-portfolio-home-page.css.map */

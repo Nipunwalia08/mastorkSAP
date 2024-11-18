@@ -1,6 +1,6 @@
 // Global Variable
-$main-color: #ff2c9c;
-$gradient-color: linear-gradient(to left top, #ff2c9c, #ff287b, #ff395a, #ff5137, #ff6a00);
+$main-color: #0700db;
+$gradient-color: linear-gradient(to left top, #0700db, #135aff, #7048ff, #00297a, #22009d);
 $black-color: #18181b;
 $paragraph-color: #646464;
 $white-color: #ffffff;
@@ -8,15 +8,13 @@ $transition: all 0.6s ease;
 
 /* Banner Area CSS */
 .marketing-banner-area { 
+    
     z-index: 1;
+    
     position: relative;
     border: {
         top: 1px solid #f0f0f0;
         bottom: 1px solid #f0f0f0;
-    };
-    padding: {
-        top: 160px;
-        bottom: 80px;
     };
 }
 .marketing-banner-content {

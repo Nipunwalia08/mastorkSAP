@@ -1,10 +1,10 @@
 /* Global Variables */
 :root {
     --transition: .5s;
-    --mainColor: #ED2775;
+    --mainColor: #0700db;
     --whiteColor: #ffffff;
     --blackColor: #262A37;
-    --gradientColor: linear-gradient(44.44deg, #ED2775 7.79%, #FF7448 94.18%);
+    --gradientColor: linear-gradient(to left top, #0700db, #135aff, #7048ff, #00297a, #18006f);
 }
 
 .app-sub-title {
@@ -332,7 +332,7 @@
             background: linear-gradient(44.44deg, #FF4B3F 7.79%, #FFAC30 94.18%);
         }
         &.bg3 {
-            background: linear-gradient(45deg, #ED2775 0%, #FF7448 100%);
+            background: linear-gradient(45deg, #0700db 0%, #FF7448 100%);
         }
         &.bg4 {
             background: linear-gradient(44.44deg, #3F75FF 7.79%, #4ADEFF 94.18%);
@@ -522,7 +522,7 @@
             opacity: 1;
             &.swiper-pagination-bullet-active {
                 background: var(--gradientColor);
-                border: 1px solid #ff2c9c;
+                border: 1px solid #0700db;
             }
         } 
     }

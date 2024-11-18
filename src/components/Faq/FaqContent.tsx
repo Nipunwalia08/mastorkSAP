@@ -11,6 +11,7 @@ import {
 import Image from "next/image";
 
 import faqImg from "../../../public/images/faq-img.jpg";
+import Link from "next/link";
 
 const FaqContent: React.FC = () => {
   return (
@@ -30,12 +31,14 @@ const FaqContent: React.FC = () => {
                   <AccordionItem uuid="a">
                     <AccordionItemHeading>
                       <AccordionItemButton>
-                        How long does it take to implement your AI email solution?
+                        How long does it take to implement your AI email
+                        solution?
                       </AccordionItemButton>
                     </AccordionItemHeading>
                     <AccordionItemPanel>
                       <p>
-                        Implementation typically takes 2 to 4 weeks, depending on your specific needs and existing systems.
+                        Implementation typically takes 2 to 4 weeks, depending
+                        on your specific needs and existing systems.
                       </p>
                     </AccordionItemPanel>
                   </AccordionItem>
@@ -43,12 +46,15 @@ const FaqContent: React.FC = () => {
                   <AccordionItem uuid="b">
                     <AccordionItemHeading>
                       <AccordionItemButton>
-                        What results can we expect from your email management solutions?
+                        What results can we expect from your email management
+                        solutions?
                       </AccordionItemButton>
                     </AccordionItemHeading>
                     <AccordionItemPanel>
                       <p>
-                        Clients have reported up to a 70% reduction in response times and a 50% increase in conversion rates, enhancing overall customer satisfaction.
+                        Clients have reported up to a 70% reduction in response
+                        times and a 50% increase in conversion rates, enhancing
+                        overall customer satisfaction.
                       </p>
                     </AccordionItemPanel>
                   </AccordionItem>
@@ -61,7 +67,9 @@ const FaqContent: React.FC = () => {
                     </AccordionItemHeading>
                     <AccordionItemPanel>
                       <p>
-                        Yes, our AI email management solutions can be tailored to meet the unique requirements of various industries, ensuring optimal performance.
+                        Yes, our AI email management solutions can be tailored
+                        to meet the unique requirements of various industries,
+                        ensuring optimal performance.
                       </p>
                     </AccordionItemPanel>
                   </AccordionItem>
@@ -74,7 +82,9 @@ const FaqContent: React.FC = () => {
                     </AccordionItemHeading>
                     <AccordionItemPanel>
                       <p>
-                        We provide ongoing support, including regular updates, troubleshooting, and access to our dedicated customer service team.
+                        We provide ongoing support, including regular updates,
+                        troubleshooting, and access to our dedicated customer
+                        service team.
                       </p>
                     </AccordionItemPanel>
                   </AccordionItem>
@@ -82,18 +92,27 @@ const FaqContent: React.FC = () => {
                   <AccordionItem uuid="e">
                     <AccordionItemHeading>
                       <AccordionItemButton>
-                        Can your system integrate with our existing email platform?
+                        Can your system integrate with our existing email
+                        platform?
                       </AccordionItemButton>
                     </AccordionItemHeading>
                     <AccordionItemPanel>
                       <p>
-                        Absolutely! Our AI solutions are designed to integrate seamlessly with popular email platforms to enhance your current workflows.
+                        Absolutely! Our AI solutions are designed to integrate
+                        seamlessly with popular email platforms to enhance your
+                        current workflows.
                       </p>
                     </AccordionItemPanel>
                   </AccordionItem>
                 </Accordion>
               </div>
             </div>
+          </div>
+
+          <div className="container flex flex-col items-center justify-center text-center" >
+            <Link href="https://calendly.com/dhruv-aii/30mins" className="btn btn-primary mt-5">
+            Book a 1:1 Call
+            </Link>
           </div>
         </div>
       </div>

@@ -108,7 +108,7 @@ const LatestNews: React.FC = () => {
       width: "200px",  // Set a fixed width
       lineHeight: "45px",  // Vertically center the text
       fontSize: "16px",
-      backgroundColor: "#ff0055",
+      backgroundColor: "#0700db",
       color: "#fff",
       borderRadius: "5px",
       textDecoration: "none",

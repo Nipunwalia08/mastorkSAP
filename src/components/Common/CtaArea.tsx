@@ -27,8 +27,8 @@ const CtaArea: React.FC = () => {
               data-aos-duration="1000"
               data-aos-delay="300"
             >
-              <div className="cta-btn-box">
-                <Link href="https://calendly.com/dhruv-aii/30mins" className="btn btn-primary">
+              <div className="flex flex-col items-center justify-center text-center">
+                <Link href="https://calendly.com/dhruv-aii/30mins" className="btn border border-white text-white hover:transition">
                 Book a 1:1 Call
                 </Link>
               </div>
