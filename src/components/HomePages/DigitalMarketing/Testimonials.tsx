@@ -12,7 +12,7 @@ const feedbacskData = [
     name: "Sarah Taylor",
     designation: "Director",
     feedbackText:
-      "Their Microsoft expertise transformed how we handle workflows, cutting costs by 30%!",
+      "Their expertise in SAP ERP automation saved us weeks of manual work!",
 
     rating: [
       {
@@ -37,7 +37,7 @@ const feedbacskData = [
     name: "Richard Turner",
     designation: "CEO & Founder",
     feedbackText:
-      "From ERP integration to automation, they made digital transformation a reality for us.",
+      "Our S/4HANA migration was smooth and cost-efficient thanks to their incredible team.",
 
     rating: [
       {

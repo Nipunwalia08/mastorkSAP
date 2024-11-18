@@ -7,7 +7,7 @@ import Image from "next/image";
 const caseStudiesData = [
   {
     image: "/images/case-studies/studie1.jpg",
-    title: "How a global retailer achieved a 40% productivity boost using Microsoft Power Automate.",
+    title: "How a global retailer cut tax reconciliation time by 80% with SAP automation",
     category: "Web, Sales",
     detailsLink: "/portfolio/ai-email-reducing-time/",
     shapeImage: "/images/case-studies/studie-shape1.png",
@@ -15,7 +15,7 @@ const caseStudiesData = [
   },
   {
     image: "/images/case-studies/studie2.jpg",
-    title: "Simplifying project management for a construction firm with custom Power BI dashboards.",
+    title: "Migrating to SAP S/4 HANA with zero downtime for a leading healthcare provider.",
     category: "Sales, SEO, Web",
     detailsLink: "/portfolio/automating-sales-order-using-ai-email/",
     shapeImage: "/images/case-studies/studie-shape2.png",

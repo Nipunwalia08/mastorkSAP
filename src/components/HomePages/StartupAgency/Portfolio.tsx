@@ -14,9 +14,7 @@ const Portfolio: React.FC = () => {
           <div className="section-title">
             <h2>Our Team</h2>
             <p>
-              Meet the specialists who bring Microsoft technologies to life.
-              From certified Microsoft experts to AI and automation consultants,
-              our team is dedicated to helping your business succeed.
+            Meet the SAP specialists trusted by leading companies. With extensive experience in ERP automation, compliance, and support, we are your SAP growth partners. 
             </p>
           </div>
         </div>

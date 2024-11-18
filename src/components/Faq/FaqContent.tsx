@@ -31,8 +31,7 @@ const FaqContent: React.FC = () => {
                   <AccordionItem uuid="a">
                     <AccordionItemHeading>
                       <AccordionItemButton>
-                        How long does it take to implement your AI email
-                        solution?
+                      How long does an SAP S/4HANA migration typically take?
                       </AccordionItemButton>
                     </AccordionItemHeading>
                     <AccordionItemPanel>
@@ -46,8 +45,7 @@ const FaqContent: React.FC = () => {
                   <AccordionItem uuid="b">
                     <AccordionItemHeading>
                       <AccordionItemButton>
-                        What results can we expect from your email management
-                        solutions?
+                      Can your SAP services be customized for specific industries?
                       </AccordionItemButton>
                     </AccordionItemHeading>
                     <AccordionItemPanel>
@@ -62,7 +60,7 @@ const FaqContent: React.FC = () => {
                   <AccordionItem uuid="c">
                     <AccordionItemHeading>
                       <AccordionItemButton>
-                        Is the solution customizable for specific industries?
+                      Do you provide ongoing SAP support after implementation?
                       </AccordionItemButton>
                     </AccordionItemHeading>
                     <AccordionItemPanel>
@@ -92,8 +90,7 @@ const FaqContent: React.FC = () => {
                   <AccordionItem uuid="e">
                     <AccordionItemHeading>
                       <AccordionItemButton>
-                        Can your system integrate with our existing email
-                        platform?
+                        Can your system integrate with our existing platform?
                       </AccordionItemButton>
                     </AccordionItemHeading>
                     <AccordionItemPanel>

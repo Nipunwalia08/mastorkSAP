@@ -81,12 +81,10 @@ const MainBanner: React.FC = () => {
             <div className="col-lg-6">
               <div className="marketing-banner-content  relative z-20 md:mt-7">
                 <h1 className="text-3xl font-bold mb-4 text-shadow-md ">
-                  Microsoft Stack Specialist
+                SAP Specialists You Can Rely On
                 </h1>
                 <p className="mb-6 text-shadow-md ">
-                  Unlock the potential of Microsoft technologies to drive
-                  digital transformation, automate workflows, and elevate your
-                  business with customized solutions and expert guidance.
+                Transform your SAP experience with expert services tailored to your business needs. From implementation to automation, our SAP specialists ensure efficiency, compliance, and growth.
                 </p>
                 <div className="container flex flex-col items-center justify-center text-center mb-5">
                   <Link

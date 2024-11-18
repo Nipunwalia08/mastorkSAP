@@ -9,35 +9,35 @@ const marketingProcessData = [
     image: "/images/digital-marketing/process1.png",
     title: "Time Drain",
     shortText:
-      "Is your team bogged down by manual, repetitive tasks that drain productivity?",
+      "Struggling with a slow and inefficient SAP ERP system?",
     aosDelay: "100",
   },
   {
     image: "/images/digital-marketing/process2.png",
     title: "Lost Emails",
     shortText:
-      "Struggling to unify your business processes across different systems and tools?",
+      "Finding SAP S/4HANA migration complex and time-consuming?",
     aosDelay: "200",
   },
   {
     image: "/images/digital-marketing/process3.png",
     title: "Email Overload",
     shortText:
-      "Do you face delays in decision-making due to scattered or inaccessible data?",
+      "Dealing with non-compliance issues in country-specific regulations?",
     aosDelay: "300",
   },
   {
     image: "/images/digital-marketing/process1.png",
     title: "Spam Fatigue",
     shortText:
-      "Difficulty in scaling your operations with outdated systems?",
+      "Spending endless hours reconciling GSTR2 reports?",
     aosDelay: "100",
   },
   {
     image: "/images/digital-marketing/process2.png",
     title: "Routing Issues",
     shortText:
-      "Are you looking for seamless ERP and CRM integration to streamline your operations?",
+      "Unsure about the health and optimization of your current SAP setup?",
     aosDelay: "200",
   },
 ];

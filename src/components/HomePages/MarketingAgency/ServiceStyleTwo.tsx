@@ -35,30 +35,30 @@ const ServiceStyle2: React.FC = () => {
                   <div className="col-sm-6">
                     <div className="feature-list">
                       <i className="fa-solid fa-circle-check"></i>
-                      Customized Development on Microsoft Power Platform
+                      End-to-End SAP ERP Implementation
                     </div>
                     <div className="feature-list">
                       <i className="fa-solid fa-circle-check"></i>
-                      ERP & CRM Implementation and Optimization
+                      Seamless SAP S/4 HANA Migration
                     </div>
                     <div className="feature-list">
                       <i className="fa-solid fa-circle-check"></i>
-                      AI-Driven Business Process Automation
+                      Country-Specific Localization Services
                     </div>
                   </div>
 
                   <div className="col-sm-6">
                     <div className="feature-list">
                       <i className="fa-solid fa-circle-check"></i>
-                      Accelerated Digital Transformation
+                      GSTR2 Reconciliation Automation
                     </div>
                     <div className="feature-list">
                       <i className="fa-solid fa-circle-check"></i>
-                      Cloud Integration & Security
+                      SAP System Study & Audit
                     </div>
                     <div className="feature-list">
                       <i className="fa-solid fa-circle-check"></i>
-                      Customizable Business Solutions with Power Apps
+                      Expert SAP Support & Guidance
                     </div>
                   </div>
                 </div>
