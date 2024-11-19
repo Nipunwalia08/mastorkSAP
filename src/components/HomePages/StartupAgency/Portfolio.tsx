@@ -14,7 +14,9 @@ const Portfolio: React.FC = () => {
           <div className="section-title">
             <h2>Our Team</h2>
             <p>
-            Meet the SAP specialists trusted by leading companies. With extensive experience in ERP automation, compliance, and support, we are your SAP growth partners. 
+              Meet the SAP specialists trusted by leading companies. With
+              extensive experience in ERP automation, compliance, and support,
+              we are your SAP growth partners.
             </p>
           </div>
         </div>

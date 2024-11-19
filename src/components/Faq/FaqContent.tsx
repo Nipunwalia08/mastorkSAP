@@ -25,19 +25,19 @@ const FaqContent: React.FC = () => {
               </div>
             </div>
 
-            <div className="col-lg-6">
+            <div className="col-lg-6 pt-5">
               <div className="faq-accordion">
                 <Accordion allowZeroExpanded preExpanded={["a"]}>
                   <AccordionItem uuid="a">
                     <AccordionItemHeading>
                       <AccordionItemButton>
-                      How long does an SAP S/4HANA migration typically take?
+                        How long does an SAP S/4HANA migration typically take?
                       </AccordionItemButton>
                     </AccordionItemHeading>
                     <AccordionItemPanel>
                       <p>
-                        Implementation typically takes 2 to 4 weeks, depending
-                        on your specific needs and existing systems.
+                        Migration timelines vary from 6 to 18 months based on
+                        system complexity, with a focus on minimizing downtime.
                       </p>
                     </AccordionItemPanel>
                   </AccordionItem>
@@ -45,14 +45,14 @@ const FaqContent: React.FC = () => {
                   <AccordionItem uuid="b">
                     <AccordionItemHeading>
                       <AccordionItemButton>
-                      Can your SAP services be customized for specific industries?
+                        Can your SAP services be customized for specific
+                        industries?
                       </AccordionItemButton>
                     </AccordionItemHeading>
                     <AccordionItemPanel>
                       <p>
-                        Clients have reported up to a 70% reduction in response
-                        times and a 50% increase in conversion rates, enhancing
-                        overall customer satisfaction.
+                        Yes, we tailor our SAP solutions to meet the unique
+                        needs of various industries.
                       </p>
                     </AccordionItemPanel>
                   </AccordionItem>
@@ -60,19 +60,18 @@ const FaqContent: React.FC = () => {
                   <AccordionItem uuid="c">
                     <AccordionItemHeading>
                       <AccordionItemButton>
-                      Do you provide ongoing SAP support after implementation?
+                        Do you provide ongoing SAP support after implementation?
                       </AccordionItemButton>
                     </AccordionItemHeading>
                     <AccordionItemPanel>
                       <p>
-                        Yes, our AI email management solutions can be tailored
-                        to meet the unique requirements of various industries,
-                        ensuring optimal performance.
+                        Yes, we offer full post-implementation support,
+                        including maintenance, upgrades, and user assistance.
                       </p>
                     </AccordionItemPanel>
                   </AccordionItem>
 
-                  <AccordionItem uuid="d">
+                  {/* <AccordionItem uuid="d">
                     <AccordionItemHeading>
                       <AccordionItemButton>
                         What kind of support do you offer after implementation?
@@ -100,15 +99,18 @@ const FaqContent: React.FC = () => {
                         current workflows.
                       </p>
                     </AccordionItemPanel>
-                  </AccordionItem>
+                  </AccordionItem> */}
                 </Accordion>
               </div>
             </div>
           </div>
 
-          <div className="container flex flex-col items-center justify-center text-center" >
-            <Link href="https://calendly.com/dhruv-aii/30mins" className="btn btn-primary mt-5">
-            Book a 1:1 Call
+          <div className="container flex flex-col items-center justify-center text-center">
+            <Link
+              href="https://calendly.com/dhruv-aii/30mins"
+              className="btn btn-primary mt-5"
+            >
+              Book a 1:1 Call
             </Link>
           </div>
         </div>
