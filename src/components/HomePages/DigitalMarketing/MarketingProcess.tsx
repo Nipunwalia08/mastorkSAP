@@ -46,7 +46,7 @@ const MarketingProcess: React.FC = () => {
         <div className="container">
           <div className="section-title">
             <span className="sub-title marketing-color">MARKETING PROCESS</span>
-            <h2>Are you facing these challenges?</h2>
+            <h2>Are These SAP Challenges Slowing Down Your Business?</h2>
           </div>
 
           <div className="row justify-content-center">

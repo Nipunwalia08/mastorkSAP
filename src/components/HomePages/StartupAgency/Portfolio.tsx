@@ -9,10 +9,10 @@ import Link from "next/link";
 const feedbacskData = [
   {
     image: "/images/digital-marketing/t1.jpg",
-    name: "Sarah Taylor",
+    name: "Pradeep",
     designation: "Director",
     feedbackText:
-      "Their Microsoft expertise transformed how we handle workflows, cutting costs by 30%!",
+      "Thanks to their expert SAP implementation services, our transition to SAP ERP was seamless. The team's support and guidance helped us improve efficiency and compliance across our operations.",
 
     rating: [
       {
@@ -34,10 +34,10 @@ const feedbacskData = [
   },
   {
     image: "/images/digital-marketing/t1.jpg",
-    name: "Sarah Taylor",
+    name: "Vivek",
     designation: "Director",
     feedbackText:
-      "Their Microsoft expertise transformed how we handle workflows, cutting costs by 30%!",
+      "The SAP S/4HANA migration was completed on time and without any issues. Their attention to detail in SAP localization ensured that we met all country-specific requirements.",
 
     rating: [
       {
@@ -58,11 +58,11 @@ const feedbacskData = [
     ],
   },
   {
-    image: "/images/digital-marketing/t2.jpg",
-    name: "Richard Turner",
-    designation: "CEO & Founder",
+    image: "/images/digital-marketing/lionrose.jpg",
+    name: "Lion Rose",
+    designation: "Founder",
     feedbackText:
-      "From ERP integration to automation, they made digital transformation a reality for us.",
+      "We automated our GSTR2 reconciliation with their SAP solution, which saved us countless hours. Their SAP support is proactive and always available when needed.",
 
     rating: [
       {
@@ -83,11 +83,11 @@ const feedbacskData = [
     ],
   },
   {
-    image: "/images/digital-marketing/t2.jpg",
-    name: "Richard Turner",
-    designation: "CEO & Founder",
+    image: "/images/digital-marketing/manuj.jpg",
+    name: "Manuj Aggarwal",
+    designation: "CIO and Author",
     feedbackText:
-      "From ERP integration to automation, they made digital transformation a reality for us.",
+      "Their SAP system audits provided actionable insights that helped us optimize our processes and improve performance. The team's SAP expertise made a real difference.",
 
     rating: [
       {
@@ -116,13 +116,13 @@ const Portfolio: React.FC = () => {
         <section className="portfolio-area">
           <div className="container">
             <div className="section-title">
-              <h2>What Our Clients Say</h2>
-              <p>
+              <h2>What Our Customers Say</h2>
+              {/* <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde
                 architecto magni est recusandae, iure officia voluptate
                 repellat, asperiores laudantium dolorum explicabo dignissimos
                 obcaecati laboriosam cupiditate corporis similique.
-              </p>
+              </p> */}
             </div>
           </div>
 

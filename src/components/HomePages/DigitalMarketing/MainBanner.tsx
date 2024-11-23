@@ -81,10 +81,14 @@ const MainBanner: React.FC = () => {
             <div className="col-lg-6">
               <div className="marketing-banner-content  relative z-20 md:mt-7">
                 <h1 className="text-3xl font-bold mb-4 text-shadow-md ">
-                SAP Specialists You Can Rely On
+                  SAP Specialists You Can Rely On
                 </h1>
                 <p className="mb-6 text-shadow-md ">
-                Transform your SAP experience with expert services tailored to your business needs. From implementation to automation, our SAP specialists ensure efficiency, compliance, and growth.
+                  Transform your SAP experience with expert services tailored to
+                  your business needs. From SAP implementation and consulting to
+                  automation, our SAP specialists ensure efficiency, compliance,
+                  and growth with solutions like SAP Business One, SAP ERP
+                  software, and SAP SuccessFactors.
                 </p>
                 <div className="container flex flex-col items-center justify-center text-center mb-5">
                   <Link

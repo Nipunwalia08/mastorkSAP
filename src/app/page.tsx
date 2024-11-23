@@ -130,7 +130,7 @@ export default function Page() {
 
       <FunFacts /> */}
 
-      <Testimonials />
+      {/* <Testimonials /> */}
 
       <Portfolio />
 

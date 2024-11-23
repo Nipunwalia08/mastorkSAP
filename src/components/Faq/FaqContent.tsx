@@ -36,8 +36,8 @@ const FaqContent: React.FC = () => {
                     </AccordionItemHeading>
                     <AccordionItemPanel>
                       <p>
-                        Migration timelines vary from 6 to 18 months based on
-                        system complexity, with a focus on minimizing downtime.
+                        Migration timelines vary 6 to 18 months based on system
+                        complexity, with a focus on minimizing downtime.
                       </p>
                     </AccordionItemPanel>
                   </AccordionItem>

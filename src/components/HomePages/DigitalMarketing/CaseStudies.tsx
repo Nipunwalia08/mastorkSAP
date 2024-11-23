@@ -24,18 +24,18 @@ const caseStudiesData = [
     aosDelay: "200",
   },
   {
-    image: "/images/case-studies/studie2.jpg",
+    image: "/images/case-studies/studie1.jpg",
     title:
-      "Migrating to SAP S/4 HANA with zero downtime for a leading healthcare provider.",
-    category: "Sales, SEO, Web",
-    detailsLink: "/portfolio/automating-sales-order-using-ai-email/",
-    shapeImage: "/images/case-studies/studie-shape2.png",
-    aosDelay: "200",
+      "Enhancing HR management through SAP SuccessFactors implementation for a fast-growing tech company.",
+    category: "Web, Sales",
+    detailsLink: "/portfolio/ai-email-reducing-time/",
+    shapeImage: "/images/case-studies/studie-shape1.png",
+    aosDelay: "100",
   },
   {
     image: "/images/case-studies/studie2.jpg",
     title:
-      "Migrating to SAP S/4 HANA with zero downtime for a leading healthcare provider.",
+      "How a multinational retailer automated their invoicing process, cutting processing time by 50% with SAP ERP software.",
     category: "Sales, SEO, Web",
     detailsLink: "/portfolio/automating-sales-order-using-ai-email/",
     shapeImage: "/images/case-studies/studie-shape2.png",

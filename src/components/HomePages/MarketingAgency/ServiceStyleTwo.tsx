@@ -29,12 +29,12 @@ const ServiceStyle2: React.FC = () => {
                   <p>
                     We offer comprehensive SAP solutions to optimize your
                     business processes. From end-to-end SAP ERP implementation
-                    and seamless S/4HANA migration to country-specific
-                    localization services, we ensure compliance and efficiency.
+                    and seamless S/4HANA migration to country-specific SAP
+                    localization services, ensuring compliance and efficiency.
                     Automate tasks like GSTR2 reconciliation, conduct detailed
-                    system audits for actionable insights, and rely on expert
-                    SAP support to address issues proactively and keep your
-                    operations running smoothly.
+                    SAP system audits for actionable insights, and rely on
+                    expert SAP support to proactively address issues, ensuring
+                    smooth operations and continued growth.
                   </p>
                 </div>
 
