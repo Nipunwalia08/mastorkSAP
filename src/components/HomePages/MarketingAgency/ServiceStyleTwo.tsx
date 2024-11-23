@@ -15,8 +15,8 @@ const ServiceStyle2: React.FC = () => {
   return (
     <>
       <div className="service-style-two ptb-100 bg-fcfbfb">
-        <div className="container">
-          <div className="row align-items-center">
+        <div className="container  md:ml-10 lg:ml-20">
+          <div className="row align-items-center ">
             <div className="col-lg-7">
               <div
                 className="service-info pr-50"
