@@ -33,7 +33,7 @@ const feedbacskData = [
     ],
   },
   {
-    image: "/images/digital-marketing/t1.jpg",
+    image: "/images/digital-marketing/t2.jpg",
     name: "Vivek",
     designation: "Director",
     feedbackText:
